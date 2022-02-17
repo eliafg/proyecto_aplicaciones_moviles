@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String message = editText_Dial.getText().toString();
-                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:+"+message));
+                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:+52"+message));
                 startActivity(intent);
             }
         });
